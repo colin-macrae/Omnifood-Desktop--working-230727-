@@ -47,18 +47,23 @@ body {
   color: #555;
 }
 
-.test { 
-  background-color: grey;
-  padding: 4rem;
-  /* width: 1000px; */
-  /* max-width: 1000px; */
-  max-width: 50rem;
-  font-size: 2rem;
-  /* 1 rem = 16px */
-}
-
 html {
   /* font-size: 10px; */
   font-size: 62.5%; 
   /* this is why: 10px / 16px = .625, becuase what you want to do is convert the default from 16px to 10px as it's base, so you shrink it to make it equal to 10px using percentages, not setting the html pixel */
 }
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: red;
+}
+
+.hero-img {
+  width:100%;
+}
+
+
+
