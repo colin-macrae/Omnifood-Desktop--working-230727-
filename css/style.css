@@ -16,11 +16,13 @@ Default: 1
 
 ---02 COLORS 
 -primary: #e67e22
--Tints: 
+-Tints: #fdf2e9
 -Shades:
 -Accents: 
 -Greys: 
-#555
+#555;
+#333;
+
 
 ---- 05 SHADOWS 
 
@@ -53,15 +55,88 @@ html {
   /* this is why: 10px / 16px = .625, becuase what you want to do is convert the default from 16px to 10px as it's base, so you shrink it to make it equal to 10px using percentages, not setting the html pixel */
 }
 
+.section-hero {
+  background-color: #fdf2e9;
+  padding: 9.6rem 0;
+}
+
 .hero {
   max-width: 130rem;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
+  /* gap is gap between the columns */
+  gap: 9.6rem;
+}
+
+.btn:link, 
+.btn:visited {
+  /* background-color: #e67e22; */
+  display: inline-block;
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+  /* set transition on original state */
+  transition: background-color 0.3s;
 }
 
 .hero-img {
   width:100%;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  line-height: 1.05;
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+  margin-bottom: 3.2rem;
+
+}
+
+.hero-description {
+  line-height: 1.6;
+  font-size: 2rem;
+  margin-bottom: 4.8rem;
+
+}
+
+.btn--full:link, 
+.btn--full:visited {
+  background-color: #e67e22;
+  color: #fff;
+}
+
+.btn--full:hover, 
+.btn--full:active {
+  background-color: #cf711f;
+  color: #fff;
+}
+
+.btn--outline:link, 
+.btn--outline:visited {
+  background-color: #fff;
+  color: #555;
+}
+
+.btn--outline:hover, 
+.btn--outline:active {
+  background-color: #fdf2e9;
+  color: #555;
+  /* border: 3px solid #fff; */
+  /* add border inside by using box shadow instead of border */
+  box-shadow: inset 0 0 0 3px #fff;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.margin-right-sm {
+  margin-right: 1.6rem !important;
 }
 
 
