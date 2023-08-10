@@ -8,10 +8,16 @@
 
 --Font weights: 
 Default: 400
+medium 500
+semi bold 600
+bold 700
 
 
 --Line heights: 
 Default: 1
+small 1.05
+paragraph default 1.6
+
 
 
 ---02 COLORS 
@@ -27,6 +33,7 @@ Default: 1
 ---- 05 SHADOWS 
 
 ---- 06 BORDER-RADIUS
+Default: 9px;
 
 ---- 07 WHITESPACE
 
@@ -103,7 +110,7 @@ html {
   background-color: #fdf2e9;
   color: #555;
   /* border: 3px solid #fff; */
-  /* add border inside by using box shadow instead of border */
+  /* add border inside by using box shadow (below) instead of border (above) */
   box-shadow: inset 0 0 0 3px #fff;
 }
 
@@ -166,8 +173,6 @@ html {
 .main-nav-link.nav-cta:active {
   background-color:#cf711f;
 }
-
-
 
 /**************************/
 /* HERO SECTION  */
