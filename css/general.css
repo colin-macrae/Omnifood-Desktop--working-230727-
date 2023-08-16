@@ -68,6 +68,10 @@ html {
   /* this is why: 10px / 16px = .625, becuase what you want to do is convert the default from 16px to 10px as it's base, so you shrink it to make it equal to 10px using percentages, not setting the html pixel */
 }
 
+strong {
+  font-weight: 500;
+}
+
 /********************************/
 /* GENERAL REUSABLE COMPONENTS*/
 /********************************/
