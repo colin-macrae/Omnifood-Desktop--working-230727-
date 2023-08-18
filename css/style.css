@@ -213,11 +213,11 @@
   box-shadow: 0 .5rem .5rem rgba(0,0,0,0.2);
   border-radius: 11px;
   overflow: hidden;
-  transition: all 0.4s;
+  transition: all 0.15s;
 }
 
 .meal:hover {
-  transform: translateY(-1rem);
+  transform: translateY(-.6rem);
   box-shadow: 0 1rem 1rem rgba(0,0,0,0.1);
 }
 
@@ -307,6 +307,37 @@
   width: 3rem;
   height: 3rem;
   color:#e67e22;
+}
+
+/**************************/
+/* TESTIMONIALS SECTION  */
+/**************************/
+.section-testimonials {
+  padding: 9.6rem 0;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4.8rem;
+}
+
+.testimonial-img {
+  width: 6.4rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+
+.testimonial-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
+
+}
+
+.testimonial-name {
+  font-size: 1.6rem;
+  color: #777;
 }
 
 
