@@ -88,7 +88,8 @@ strong {
   display: grid;
   row-gap: 9.6rem;
   column-gap: 6.4rem;
-  grid-template-columns: repeat(2, 1fr);
+  /* deleted line below as an error.  double check later */
+  /* grid-template-columns: repeat(2, 1fr); */
 }
 
 .grid:not(:last-child) {
