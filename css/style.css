@@ -490,6 +490,7 @@ main {
 .cta-text {
   font-size: 1.8rem;
   line-height: 1.8;
+  margin-bottom: 4.8rem;
 }
 
 .cta-img-box {
@@ -500,6 +501,26 @@ main {
   background-position: center;
 }
 
+.cta-form {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/**************************/
+/* site info SECTION, temporary  */
+/**************************/
 .gray-background {
   background-color: rgb(255, 206, 206);
   margin-bottom: 4rem;
