@@ -489,6 +489,16 @@ main {
   background-position: center;
 }
 
+.gray-background {
+  background-color: rgb(255, 206, 206);
+  margin-bottom: 4rem;
+  font-size: 3rem;
+}
+
+.other-notes {
+  font-size: 2rem;
+}
+
 
 
 
