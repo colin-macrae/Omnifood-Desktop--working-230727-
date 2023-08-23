@@ -35,6 +35,7 @@ paragraph default 1.6
 #6f6f6f; (lightest grey allowed for #fdf2e9 backgrounds) 
 #555;
 #333;
+#45260a;
 
 
 ---- 05 SHADOWS 
@@ -151,14 +152,17 @@ strong {
   letter-spacing: .75px;
 }
 
+.btn,
 .btn:link, 
 .btn:visited {
   display: inline-block;
   font-size: 2rem;
-  color: #fff;
   text-decoration: none;
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
   /* set transition on original state */
   transition: all 0.3s;
   font-weight: 600;
@@ -189,6 +193,11 @@ strong {
   /* border: 3px solid #fff; */
   /* add border inside by using box shadow (below) instead of border (above) */
   box-shadow: inset 0 0 0 3px #fff;
+}
+
+.btn--form {
+  background-color: #45260a;
+  color:#fdf2e9;
 }
 
 .link:link, 
