@@ -73,7 +73,7 @@
     gap: 6.4rem;
   }
 
-  .hero-text-box ,
+  .hero-text-box,
   .hero-img-box {
     text-align: center;
   }
@@ -83,41 +83,39 @@
   }
 
   .delivered-meals {
-  justify-content: center;
-  margin-top: 3.2rem;
-}
+    justify-content: center;
+    margin-top: 3.2rem;
+  }
 
-.logos img {
-  height: 2.4rem;
-}
+  .logos img {
+    height: 2.4rem;
+  }
 
-.step-number {
-  font-size: 7.4rem;
-}
+  .step-number {
+    font-size: 7.4rem;
+  }
 
-.meal-content {
+  .meal-content {
     padding: 2.4rem 3.2rem 3.2rem 3.2rem;
-}
+  }
 
-.section-testimonials {
-  grid-template-columns: 1fr;
-}
+  .section-testimonials {
+    grid-template-columns: 1fr;
+  }
 
-.gallery {
+  .gallery {
     grid-template-columns: repeat(6, 1fr);
   }
 
-.cta {
+  .cta {
     grid-template-columns: 3fr 2fr;
-}
+  }
 
-.cta-form {
-  grid-template-columns: 1fr;
-}
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
 
-.btn--form {
-  margin-top: 1.2rem;
-}
-
-
+  .btn--form {
+    margin-top: 1.2rem;
+  }
 }
