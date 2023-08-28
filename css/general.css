@@ -67,12 +67,14 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  overflow-x: hidden;
 }
 
 html {
   /* font-size: 10px; WE WON'T USE THIS METHOD*/
   font-size: 62.5%; 
-  /* this is why: 10px / 16px = .625, becuase what you want to do is convert the default from 16px to 10px as it's base, so you shrink it to make it equal to 10px using percentages, not setting the html pixel */
+  /* this is why: 10px / 16px = .625, becuase what you want to do is convert the default from 16px to 10px as it's base, so you shrink it to make it equal to 10px using percentages, not setting the html pixel */  
+  overflow-x: hidden;
 }
 
 strong {
