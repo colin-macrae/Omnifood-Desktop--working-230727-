@@ -16,7 +16,13 @@ const headerEl = document.querySelector(".header");
 
 btnNavEl.addEventListener('click', function() {
   headerEl.classList.toggle('nav-open');
-})
+});
+
+const navLink = document.querySelector(".main-nav-list");
+navLink.addEventListener("click", function () {
+  headerEl.classList.toggle("nav-open");
+  console.log('clicked')
+});
 
 // sticky navigation 
 const sectionHeroEl = document.querySelector(".section-hero");
