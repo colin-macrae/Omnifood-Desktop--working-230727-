@@ -18,6 +18,7 @@ btnNavEl.addEventListener('click', function() {
   headerEl.classList.toggle('nav-open');
 });
 
+// navbar auto close (custom addition)
 const navLink = document.querySelector(".main-nav-list");
 navLink.addEventListener("click", function () {
   headerEl.classList.toggle("nav-open");
