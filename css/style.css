@@ -80,7 +80,7 @@
   top: 0; 
   bottom: 0; 
   width: 100%; 
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.96);
   padding-top: 0; 
   padding-bottom: 0; 
   height: 8rem; 
